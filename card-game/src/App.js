@@ -27,6 +27,8 @@ class App extends Component {
 
 export default App;
 */
+
+/*
 import React, { Component } from 'react';
 import './App.css';
 
@@ -39,10 +41,25 @@ class App extends Component {
 
         Hello {"World"}  
       </div>
-
-    
+   
     );
   }
 }
 export default App;
+*/
+//import React, { Component } from 'react';
+import CharacterCard from './CharacterCard';
+class App extends Component {
+  render() {
+    return (
+      <div>
+        <CharacterCard value="h"/>
+        <CharacterCard value="i"/>
+      </div>
+    );
+  }
+}
+export default App;
+
+
 
